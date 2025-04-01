@@ -1,5 +1,8 @@
 # Model Context Protocol (MCP) Course
 
+> [!IMPORTANT]
+> Content generated with [Manus AI](https://manus.im/) and still being checked. There might be mistakes and lots of room for improvement.
+
 This comprehensive learning course covers Model Context Protocol (MCP) implementation using TypeScript. The course includes both client and server implementations with practical applications.
 
 ## Course Structure
