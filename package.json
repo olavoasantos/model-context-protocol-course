@@ -1,0 +1,51 @@
+{
+  "name": "model-context-protocol-course",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://olavoasantos.github.io/model-context-protocol-course",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "predeploy": "NODE_ENV=production pnpm run build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/breadcrumb": "^2.2.0",
+    "@chakra-ui/checkbox": "^2.3.2",
+    "@chakra-ui/icons": "^2.2.4",
+    "@chakra-ui/image": "^2.1.0",
+    "@chakra-ui/layout": "^2.3.1",
+    "@chakra-ui/react": "^2.10.0",
+    "@chakra-ui/table": "^2.1.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "chakra-ui-markdown-renderer": "^4.1.0",
+    "framer-motion": "^12.6.2",
+    "next-themes": "^0.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-markdown": "^8.0.0",
+    "react-router-dom": "^7.4.1",
+    "react-syntax-highlighter": "^15.6.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/node": "^22.13.17",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
+    "globals": "^15.15.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  }
+}
